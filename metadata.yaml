@@ -1,8 +1,9 @@
 name: astrbot_plugin_stoprushingiamtyping
 display_name: 別急!我在打字
-desc: 重建版 Discord typing 指示插件，以分層架構在 LLM 思考中持續顯示輸入中狀態。
+desc: Discord typing 指示插件，以分層架構在 LLM 思考中持續顯示輸入中狀態。
 version: 0.2.0
-author: AstrBot Community
+author: Melantilla.
+repo: https://github.com/nerdchan/astrbot_plugin_stoprushingiamtyping
 support_platforms:
   - discord
 astrbot_version: ">=4.16,<5"
