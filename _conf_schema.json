@@ -1,0 +1,26 @@
+{
+  "enable": {
+    "type": "bool",
+    "description": "啟用 typing 指示器",
+    "hint": "關閉後插件不會攔截 LLM 請求。",
+    "default": true
+  },
+  "typing_keepalive_seconds": {
+    "type": "float",
+    "description": "typing 續命間隔（秒）",
+    "hint": "建議 6~9 秒，避免過於頻繁地觸發 typing。",
+    "default": 8.0
+  },
+  "max_typing_window_seconds": {
+    "type": "float",
+    "description": "單次最長 typing 時窗（秒）",
+    "hint": "避免異常時 task 長時間殘留。",
+    "default": 120.0
+  },
+  "debug_log": {
+    "type": "bool",
+    "description": "輸出除錯日誌",
+    "hint": "開啟後會記錄 typing 啟停與降級原因。",
+    "default": false
+  }
+}
