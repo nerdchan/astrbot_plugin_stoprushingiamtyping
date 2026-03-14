@@ -1,8 +1,8 @@
 # astrbot_plugin_stoprushingiamtyping
 
-重建版 Discord typing 指示插件：在 AstrBot 進入 LLM 推理階段時，持續顯示「輸入中」直到回覆送出。
+Discord typing 指示插件：在 AstrBot 進入 LLM 推理階段時，持續顯示「輸入中」直到回覆送出。
 
-此版本參考 Satori Discord adapter 的分層概念：
+此版本參考 [Satori Discord adapter](https://github.com/satorijs/satori.git) 的分層概念：
 
 - 事件層：接收 AstrBot 事件 hook。
 - 解析層：從 event 安全提取 Discord channel。
